@@ -1,0 +1,19 @@
+name: MajesticLobby
+version: '${project.version}'
+main: dev.trobanko.majesticlobby.MajesticLobby
+api-version: 1.18
+prefix: MagesticLogger
+authors: [ Trobanko ]
+description: All your lobby needs, in one location!
+permissions:
+  majesticlobby.admin:
+    description: Access to all Majestic Admin Commands and bypass all restrictions
+  majesticlobby.bypass:
+    description: Bypass blocked events without gaining Admin commands
+commands:
+  majesticreload:
+    description: Reload the majestic config
+  setspawn:
+    description: Sets the spawn of the world
+  spawn:
+    description: Teleports the sender to the spawn location
